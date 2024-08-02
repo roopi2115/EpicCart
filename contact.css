@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 10px;
+    background-color: gainsboro;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-link a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(85, 79, 79);
+}
+.contact{
+    text-align: center;
+    color: black;
+    padding: 60px;
+    background-color: gainsboro;
+}
+.icon{
+    align-items: center;
+    color: aliceblue;
+}
